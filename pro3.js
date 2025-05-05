@@ -46,8 +46,8 @@ let word5CCounts = {};
 
 function preload() {
     font = loadFont('SpecialElite.ttf');
-    bgImage = loadImage('/P2/Project2/images/note.jfif'); 
-    testAudio = loadSound('/P2/Project2/resources/audio.mp3');
+    bgImage = loadImage('images/note.jfif'); 
+    testAudio = loadSound('resources/audio.mp3');
   }
 
 function setup() {
