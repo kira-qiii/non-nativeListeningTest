@@ -1,12 +1,6 @@
 let hoverFont = "SpecialElite"
 let controlButton;
 
-function preload() {
-    font = loadFont('SpecialElite.ttf');
-    bgImage = loadImage('/P2/Project2/images/note.jfif'); 
-  }
-
-
   function setup() {
     let canvas = createCanvas(windowWidth, windowHeight/2);
     canvas.parent('top');
